@@ -32,7 +32,7 @@ namespace GuitarShop.Controllers
                     .OrderBy(p => p.ProductID).ToList();
             }
         
-            else if (id == "strings")
+            else if (id == "Strings")
             {
                 products = context.Products
                     .Where(p => p.Category.Name == "Basses" || p.Category.Name == "Guitars")
